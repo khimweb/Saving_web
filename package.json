@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "build": "rollup --config rollup.config.mjs",
+    "build": "npm install && npx rollup --config rollup.config.mjs",
     "dev": "rollup --config rollup.config.mjs -w"
   },
   "dependencies": {
