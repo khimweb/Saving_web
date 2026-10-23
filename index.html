@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KHIM X KAIYA</title>
+    <link rel="stylesheet" href="styles/ios26.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <h1>KHIM X KAIYA</h1>
+        <a href="analysis.html" class="nav-link">Analysis</a>
+    </nav>
+    <section class="weather-clock">
+        <div id="clock" class="clock"></div>
+        <div id="weather" class="weather"></div>
+    </section>
+    <section class="entry-form">
+        <input type="date" id="datePicker" />
+        <input type="number" id="amountInput" placeholder="Amount saved" min="0" step="0.01" />
+        <button id="addBtn">Add / Update</button>
+    </section>
+    <section class="total-display">
+        <h2>Total Saved: $<span id="totalAmount">0.00</span></h2>
+    </section>
+    <section class="entries-list">
+        <ul id="entriesUl"></ul>
+    </section>
+    <script src="src/app.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/clock.js"></script>
+</body>
+</html>
