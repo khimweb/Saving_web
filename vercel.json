@@ -1,7 +1,6 @@
 {
   "version": 2,
-  "installCommand": "npm install",
-  "buildCommand": "npm install && npx rollup --config rollup.config.mjs",
+  "buildCommand": "echo 'Static build - bundles pre-built'",
   "outputDirectory": "public",
   "rewrites": [
     {
