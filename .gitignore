@@ -3,20 +3,16 @@ node_modules/
 .pnp
 .pnp.js
 
-# Environment and secrets
-.env
-.env.local
-.env.*.local
+# Local Go backend (only for local dev, Vercel uses serverless api/)
+backend/
 
 # Vercel
 .vercel
 
-# Go binaries and database
-backend/server
+# Databases and binaries
 *.db
 *.db-journal
-backend/data/*.db
-data/*.db
+data/
 
 # Logs
 *.log
